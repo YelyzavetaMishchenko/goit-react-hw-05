@@ -1,0 +1,33 @@
+.wrapper {
+  padding: 20px;
+}
+
+.back {
+  background-color: #ccc;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back:hover {
+  background-color: #bbb;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.poster {
+  border-radius: 8px;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
